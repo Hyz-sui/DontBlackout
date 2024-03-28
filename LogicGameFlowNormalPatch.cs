@@ -1,7 +1,7 @@
 namespace DontBlackout;
 
 [HarmonyPatch(typeof(LogicGameFlowNormal), nameof(LogicGameFlowNormal.IsGameOverDueToDeath))]
-public static class LogicGameFlowNorNormalIsGameOverDueToDeathPatch
+public static class LogicGameFlowNormalIsGameOverDueToDeathPatch
 {
     public static bool Prefix(ref bool __result)
     {
