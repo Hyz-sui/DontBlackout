@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+        <Authors>Hyz-sui</Authors>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="$(AmongUs)\BepInEx\interop\*.dll" />
+        <Reference Include="$(AmongUs)\BepInEx\core\*.dll" />
+    </ItemGroup>
+</Project>
