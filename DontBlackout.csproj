@@ -3,6 +3,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
         <Authors>Hyz-sui</Authors>
+        <NoWarn>MSB3246</NoWarn>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="$(AmongUs)\BepInEx\interop\*.dll" />
